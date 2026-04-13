@@ -13,53 +13,53 @@ Incremental implementation of the BMR digitization pipeline in Python. Each task
   - Create `src/bmr_pipeline/config.py` with pipeline configuration (storage paths, supported formats, retrain threshold)
   - _Requirements: All_
 
-- [ ] 2. Implement data models and custom exceptions
-  - [-] 2.1 Create Pydantic data models in `src/bmr_pipeline/models.py`
+- [x] 2. Implement data models and custom exceptions
+  - [x] 2.1 Create Pydantic data models in `src/bmr_pipeline/models.py`
     - Implement all models: `FieldStatus`, `RecordStatus`, `ExtractedField`, `ExtractionAttempt`, `ReviewerAction`, `PageImage`, `Record`, `ExtractionResult`, `FieldScore`, `RetrainEvent`, `RecordSummary`, `ValidatedInput`
     - Implement `Record.approve_all_fields()` method that sets every field status to APPROVED
     - Implement custom exception hierarchy in `models.py`: `PipelineError`, `InputValidationError`, `AssemblyError`, `ExtractionError`, `ScoringError`, `PersistenceError`, `SchemaValidationError`
     - _Requirements: 1.1–1.4, 2.1–2.4, 3.1–3.5, 4.1–4.4, 5.3, 5.4, 6.3, 6.4, 7.2, 7.3, 9.1–9.4_
 
-  - [~]* 2.2 Write property test: Record approval marks all fields approved
+  - [x]* 2.2 Write property test: Record approval marks all fields approved
     - **Property 5: Record approval marks all fields approved**
     - **Validates: Requirements 5.3, 5.4**
 
-  - [~]* 2.3 Write property test: Record IDs are unique
+  - [x]* 2.3 Write property test: Record IDs are unique
     - **Property 9: Unique record IDs**
     - **Validates: Requirements 7.3**
 
-  - [~]* 2.4 Write property test: Record serialization round-trip
+  - [x]* 2.4 Write property test: Record serialization round-trip
     - **Property 10: Record serialization round-trip**
     - **Validates: Requirements 9.1, 9.2, 9.3**
 
-- [ ] 3. Implement InputValidator
-  - [~] 3.1 Create `src/bmr_pipeline/input_validator.py`
+- [x] 3. Implement InputValidator
+  - [x] 3.1 Create `src/bmr_pipeline/input_validator.py`
     - Implement `InputValidator.validate(file_path)` that checks file extension against supported formats and verifies file readability
     - Raise `InputValidationError` for unsupported formats (include format name in message) and corrupted/unreadable files
     - Return `ValidatedInput` on success
     - _Requirements: 1.1, 1.2, 1.3, 1.4_
 
-  - [~]* 3.2 Write property test: Supported format acceptance
+  - [x]* 3.2 Write property test: Supported format acceptance
     - **Property 1: Supported format acceptance**
     - **Validates: Requirements 1.1, 1.2**
 
-  - [~]* 3.3 Write property test: Unsupported format rejection
+  - [x]* 3.3 Write property test: Unsupported format rejection
     - **Property 2: Unsupported format rejection**
     - **Validates: Requirements 1.3**
 
-  - [~]* 3.4 Write unit tests for InputValidator
+  - [x]* 3.4 Write unit tests for InputValidator
     - Test corrupted/unreadable file rejection
     - Test each supported format individually
     - _Requirements: 1.4_
 
 - [ ] 4. Implement PageAssembler
-  - [~] 4.1 Create `src/bmr_pipeline/assembler.py`
+  - [x] 4.1 Create `src/bmr_pipeline/assembler.py`
     - Implement `PageAssembler.assemble(pages, record_id)` that stitches validated pages into a single Record
     - Preserve page order and original image references
     - Raise `AssemblyError` on empty page list
     - _Requirements: 2.1, 2.2, 2.3, 2.4_
 
-  - [~]* 4.2 Write property test: Assembly preserves page order and content
+  - [-]* 4.2 Write property test: Assembly preserves page order and content
     - **Property 3: Assembly preserves page order and content**
     - **Validates: Requirements 2.1, 2.2, 2.3**
 

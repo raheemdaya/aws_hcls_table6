@@ -1,0 +1,4 @@
+# file: /home/ubuntu/Downloads/aws_hcls_table6/bmr-digitization-pipeline/src/bmr_pipeline/models.py
+# hypothesis_version: 6.151.13
+
+[0.0, 1.0, 'approved', 'edited', 'failed', 'flagged', 'pending', 'pending_review']
