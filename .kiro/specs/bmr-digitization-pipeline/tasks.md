@@ -144,18 +144,18 @@ Incremental implementation of the BMR digitization pipeline in Python. Each task
     - _Requirements: 8.3, 8.4_
 
 - [ ] 12. Implement PipelineOrchestrator
-  - [-] 12.1 Create `src/bmr_pipeline/orchestrator.py`
+  - [x] 12.1 Create `src/bmr_pipeline/orchestrator.py`
     - Implement `PipelineOrchestrator` with `process(file_paths)` and `process_reextraction(record_id)` methods
     - Wire together: InputValidator → PageAssembler → ExtractionModel → ConfidenceScorer → RecordStore
     - `process_reextraction` reads from queue, passes reviewer notes as context, updates record with new extraction while preserving history
     - Handle failed extraction by setting Record status to FAILED
     - _Requirements: 1.1–1.4, 2.1–2.4, 3.1–3.5, 4.1–4.4, 6.1–6.4, 7.1–7.4_
 
-  - [~]* 12.2 Write property test: Re-extraction updates current fields and preserves full history
+  - [x]* 12.2 Write property test: Re-extraction updates current fields and preserves full history
     - **Property 8: Re-extraction updates current fields and preserves full history**
     - **Validates: Requirements 6.3, 6.4**
 
-  - [~]* 12.3 Write unit tests for PipelineOrchestrator
+  - [-]* 12.3 Write unit tests for PipelineOrchestrator
     - Test end-to-end pipeline with mock LLM
     - Test failed extraction marks record as FAILED
     - _Requirements: 3.5_
