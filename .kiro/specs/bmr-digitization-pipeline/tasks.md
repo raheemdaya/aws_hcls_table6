@@ -100,25 +100,25 @@ Incremental implementation of the BMR digitization pipeline in Python. Each task
     - Test scoring failure defaults to 0.0
     - _Requirements: 4.2, 4.4_
 
-- [ ] 8. Implement RecordStore (JSON persistence)
-  - [-] 8.1 Create `src/bmr_pipeline/record_store.py`
+- [x] 8. Implement RecordStore (JSON persistence)
+  - [x] 8.1 Create `src/bmr_pipeline/record_store.py`
     - Implement `RecordStore` with `save(record)`, `load(record_id)`, `list_records()` methods
     - Persist records as JSON files in `storage/records/`
     - `list_records()` returns `RecordSummary` objects ordered by creation date descending
     - Raise `PersistenceError` on write failure, `SchemaValidationError` on invalid JSON deserialization
     - _Requirements: 7.1, 7.2, 7.3, 7.4, 9.1, 9.2, 9.3, 9.4_
 
-  - [~]* 8.2 Write property test: Records are listed in descending date order
+  - [x]* 8.2 Write property test: Records are listed in descending date order
     - **Property 6: Records listed in descending date order**
     - **Validates: Requirements 5.7**
 
-  - [~]* 8.3 Write unit tests for RecordStore
+  - [x]* 8.3 Write unit tests for RecordStore
     - Test write failure retains record for retry
     - Test invalid JSON deserialization error messages
     - _Requirements: 7.4, 9.4_
 
 - [ ] 9. Implement ReExtractionQueue
-  - [~] 9.1 Create `src/bmr_pipeline/queue.py`
+  - [-] 9.1 Create `src/bmr_pipeline/queue.py`
     - Implement `ReExtractionQueue` with `enqueue(record_id, reviewer_notes)`, `dequeue()`, `pending()` methods
     - Persist queue items as JSON files in `storage/queue/`
     - _Requirements: 6.1_

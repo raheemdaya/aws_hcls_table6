@@ -1,0 +1,4 @@
+# file: /home/ubuntu/Downloads/aws_hcls_table6/bmr-digitization-pipeline/src/bmr_pipeline/record_store.py
+# hypothesis_version: 6.151.13
+
+[0.0, '*.json', 'utf-8']
