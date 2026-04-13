@@ -130,7 +130,7 @@ Incremental implementation of the BMR digitization pipeline in Python. Each task
 - [x] 10. Checkpoint - Ensure all tests pass
   - Ensure all tests pass, ask the user if questions arise.
 
-- [ ] 11. Implement FeedbackLoop
+- [x] 11. Implement FeedbackLoop
   - [x] 11.1 Create `src/bmr_pipeline/feedback.py`
     - Implement `FeedbackLoop` with `add_validated_record(record)`, `should_retrain()`, `trigger_retrain()` methods
     - Copy validated records to `storage/training/`
@@ -138,13 +138,13 @@ Incremental implementation of the BMR digitization pipeline in Python. Each task
     - `trigger_retrain()` returns `RetrainEvent` and logs the event
     - _Requirements: 8.1, 8.2, 8.3, 8.4_
 
-  - [-]* 11.2 Write unit tests for FeedbackLoop
+  - [x]* 11.2 Write unit tests for FeedbackLoop
     - Test retraining trigger fires when threshold met
     - Test retraining trigger logging
     - _Requirements: 8.3, 8.4_
 
 - [ ] 12. Implement PipelineOrchestrator
-  - [~] 12.1 Create `src/bmr_pipeline/orchestrator.py`
+  - [-] 12.1 Create `src/bmr_pipeline/orchestrator.py`
     - Implement `PipelineOrchestrator` with `process(file_paths)` and `process_reextraction(record_id)` methods
     - Wire together: InputValidator → PageAssembler → ExtractionModel → ConfidenceScorer → RecordStore
     - `process_reextraction` reads from queue, passes reviewer notes as context, updates record with new extraction while preserving history
