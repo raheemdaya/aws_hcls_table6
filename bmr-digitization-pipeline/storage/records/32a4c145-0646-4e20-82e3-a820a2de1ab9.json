@@ -1,0 +1,208 @@
+{
+  "id": "32a4c145-0646-4e20-82e3-a820a2de1ab9",
+  "status": "pending_review",
+  "pages": [
+    {
+      "page_number": 1,
+      "file_path": "/home/ubuntu/Downloads/aws_hcls_table6/bmr/bmr-sample-03-partial.pdf",
+      "original_filename": "bmr-sample-03-partial.pdf"
+    }
+  ],
+  "current_fields": [
+    {
+      "name": "product_name",
+      "value": "Lisinopril 10mg Tablets",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "batch_number",
+      "value": "BMR-2024-0592",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "equipment_ids",
+      "value": null,
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "operator_initials",
+      "value": "TMS",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "start_timestamp",
+      "value": null,
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "end_timestamp",
+      "value": null,
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_1_name",
+      "value": "Lisinopril Dihydrate",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_1_weight_kg",
+      "value": "52.0",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_1_lot_number",
+      "value": "LIS-2024-0771",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_2_name",
+      "value": "Calcium Phosphate",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_2_weight_kg",
+      "value": "30.0",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_2_lot_number",
+      "value": null,
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_3_name",
+      "value": "Mannitol",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_3_weight_kg",
+      "value": null,
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_3_lot_number",
+      "value": null,
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "document_type",
+      "value": "Batch Manufacturing Record (BMR)",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "difficulty_variant",
+      "value": "PARTIAL - Partially filled fields with missing entries",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    }
+  ],
+  "extraction_history": [],
+  "reviewer_actions": [],
+  "created_at": "2026-04-13T19:46:33.662818",
+  "updated_at": "2026-04-13T19:46:41.892674",
+  "inferred_schema": {
+    "fields": {
+      "product_name": {
+        "type": "string",
+        "description": "Extracted field: product_name"
+      },
+      "batch_number": {
+        "type": "string",
+        "description": "Extracted field: batch_number"
+      },
+      "equipment_ids": {
+        "type": "NoneType",
+        "description": "Extracted field: equipment_ids"
+      },
+      "operator_initials": {
+        "type": "string",
+        "description": "Extracted field: operator_initials"
+      },
+      "start_timestamp": {
+        "type": "NoneType",
+        "description": "Extracted field: start_timestamp"
+      },
+      "end_timestamp": {
+        "type": "NoneType",
+        "description": "Extracted field: end_timestamp"
+      },
+      "ingredient_1_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_1_name"
+      },
+      "ingredient_1_weight_kg": {
+        "type": "float",
+        "description": "Extracted field: ingredient_1_weight_kg"
+      },
+      "ingredient_1_lot_number": {
+        "type": "string",
+        "description": "Extracted field: ingredient_1_lot_number"
+      },
+      "ingredient_2_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_2_name"
+      },
+      "ingredient_2_weight_kg": {
+        "type": "float",
+        "description": "Extracted field: ingredient_2_weight_kg"
+      },
+      "ingredient_2_lot_number": {
+        "type": "NoneType",
+        "description": "Extracted field: ingredient_2_lot_number"
+      },
+      "ingredient_3_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_3_name"
+      },
+      "ingredient_3_weight_kg": {
+        "type": "NoneType",
+        "description": "Extracted field: ingredient_3_weight_kg"
+      },
+      "ingredient_3_lot_number": {
+        "type": "NoneType",
+        "description": "Extracted field: ingredient_3_lot_number"
+      },
+      "document_type": {
+        "type": "string",
+        "description": "Extracted field: document_type"
+      },
+      "difficulty_variant": {
+        "type": "string",
+        "description": "Extracted field: difficulty_variant"
+      }
+    }
+  }
+}

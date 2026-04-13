@@ -1,0 +1,98 @@
+{
+  "id": "8cad02fe-2c6c-402f-aa87-c1a837512913",
+  "status": "pending_review",
+  "pages": [
+    {
+      "page_number": 1,
+      "file_path": "/home/ubuntu/Downloads/aws_hcls_table6/handwritten/bmr-handwritten-001-messy.pdf",
+      "original_filename": "bmr-handwritten-001-messy.pdf"
+    }
+  ],
+  "current_fields": [
+    {
+      "name": "product_name",
+      "value": "MANTELKAST 18MG TABLETS",
+      "confidence": 0.75,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "batch_number",
+      "value": "BAT-2024-0031 (CORRECTED FROM BMT-2024-0028)",
+      "confidence": 0.65,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "equipment_ids",
+      "value": "TAB-217, COAT-142",
+      "confidence": 0.7,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "operator_initials",
+      "value": "WY",
+      "confidence": 0.85,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "start_timestamp",
+      "value": "2024-02-09 09:15:00",
+      "confidence": 0.6,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "end_timestamp",
+      "value": "2024-02-09 17:45:00",
+      "confidence": 0.6,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredients",
+      "value": "[{'ingredient_name': 'CALCIUM PHOSPHATE', 'weight_kg': 128.6, 'lot_number': 'CP-2024-0749'}, {'ingredient_name': 'POVIDONE K30', 'weight_kg': 198.4, 'lot_number': 'PK-2024-1227'}, {'ingredient_name': 'LACTOSE MONOHYDRATE', 'weight_kg': 213.5, 'lot_number': 'LM-2024-0230'}, {'ingredient_name': 'SODIUM STARCH GLYCOLATE', 'weight_kg': 115.9, 'lot_number': 'SSG-2024-0642'}]",
+      "confidence": 0.55,
+      "status": "pending",
+      "original_value": null
+    }
+  ],
+  "extraction_history": [],
+  "reviewer_actions": [],
+  "created_at": "2026-04-13T19:46:53.658736",
+  "updated_at": "2026-04-13T19:47:02.544947",
+  "inferred_schema": {
+    "fields": {
+      "product_name": {
+        "type": "string",
+        "description": "Extracted field: product_name"
+      },
+      "batch_number": {
+        "type": "string",
+        "description": "Extracted field: batch_number"
+      },
+      "equipment_ids": {
+        "type": "string",
+        "description": "Extracted field: equipment_ids"
+      },
+      "operator_initials": {
+        "type": "string",
+        "description": "Extracted field: operator_initials"
+      },
+      "start_timestamp": {
+        "type": "string",
+        "description": "Extracted field: start_timestamp"
+      },
+      "end_timestamp": {
+        "type": "string",
+        "description": "Extracted field: end_timestamp"
+      },
+      "ingredients": {
+        "type": "list",
+        "description": "Extracted field: ingredients"
+      }
+    }
+  }
+}

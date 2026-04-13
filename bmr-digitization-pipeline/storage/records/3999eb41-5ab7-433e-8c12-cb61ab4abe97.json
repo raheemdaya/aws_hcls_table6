@@ -1,0 +1,219 @@
+{
+  "id": "3999eb41-5ab7-433e-8c12-cb61ab4abe97",
+  "status": "pending_review",
+  "pages": [
+    {
+      "page_number": 1,
+      "file_path": "/home/ubuntu/Downloads/aws_hcls_table6/handwritten/bmr-handwritten-009-clean.pdf",
+      "original_filename": "bmr-handwritten-009-clean.pdf"
+    }
+  ],
+  "current_fields": [
+    {
+      "name": "product_name",
+      "value": "SERTRALINE 50MG TABLETS",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "batch_number",
+      "value": "BMR-2024-0009",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "equipment_ids",
+      "value": "COAT-C57, MIX-C19",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "operator_initials",
+      "value": "PQR",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "start_timestamp",
+      "value": "2024-01-10 07:45:00",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "end_timestamp",
+      "value": "2024-01-10 15:00:00",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_1_name",
+      "value": "TITANIUM DIOXIDE",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_1_weight_kg",
+      "value": "151.2",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_1_lot_number",
+      "value": "TD-2024-2921",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_2_name",
+      "value": "POVIDONE K60",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_2_weight_kg",
+      "value": "8.7",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_2_lot_number",
+      "value": "PK-2024-5500",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_3_name",
+      "value": "HYPROMELLOSE",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_3_weight_kg",
+      "value": "244.5",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_3_lot_number",
+      "value": "H-2024-882C",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_4_name",
+      "value": "CROSCARMELLOSE SODIUM",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_4_weight_kg",
+      "value": "127.7",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_4_lot_number",
+      "value": "CS-2024-85CC",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    }
+  ],
+  "extraction_history": [],
+  "reviewer_actions": [],
+  "created_at": "2026-04-13T19:48:03.692795",
+  "updated_at": "2026-04-13T19:48:11.850890",
+  "inferred_schema": {
+    "fields": {
+      "product_name": {
+        "type": "string",
+        "description": "Extracted field: product_name"
+      },
+      "batch_number": {
+        "type": "string",
+        "description": "Extracted field: batch_number"
+      },
+      "equipment_ids": {
+        "type": "string",
+        "description": "Extracted field: equipment_ids"
+      },
+      "operator_initials": {
+        "type": "string",
+        "description": "Extracted field: operator_initials"
+      },
+      "start_timestamp": {
+        "type": "string",
+        "description": "Extracted field: start_timestamp"
+      },
+      "end_timestamp": {
+        "type": "string",
+        "description": "Extracted field: end_timestamp"
+      },
+      "ingredient_1_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_1_name"
+      },
+      "ingredient_1_weight_kg": {
+        "type": "string",
+        "description": "Extracted field: ingredient_1_weight_kg"
+      },
+      "ingredient_1_lot_number": {
+        "type": "string",
+        "description": "Extracted field: ingredient_1_lot_number"
+      },
+      "ingredient_2_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_2_name"
+      },
+      "ingredient_2_weight_kg": {
+        "type": "string",
+        "description": "Extracted field: ingredient_2_weight_kg"
+      },
+      "ingredient_2_lot_number": {
+        "type": "string",
+        "description": "Extracted field: ingredient_2_lot_number"
+      },
+      "ingredient_3_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_3_name"
+      },
+      "ingredient_3_weight_kg": {
+        "type": "string",
+        "description": "Extracted field: ingredient_3_weight_kg"
+      },
+      "ingredient_3_lot_number": {
+        "type": "string",
+        "description": "Extracted field: ingredient_3_lot_number"
+      },
+      "ingredient_4_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_4_name"
+      },
+      "ingredient_4_weight_kg": {
+        "type": "string",
+        "description": "Extracted field: ingredient_4_weight_kg"
+      },
+      "ingredient_4_lot_number": {
+        "type": "string",
+        "description": "Extracted field: ingredient_4_lot_number"
+      }
+    }
+  }
+}

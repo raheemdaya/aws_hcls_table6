@@ -1,0 +1,219 @@
+{
+  "id": "a4a03b31-35f5-489b-88c8-dbb76819c417",
+  "status": "pending_review",
+  "pages": [
+    {
+      "page_number": 1,
+      "file_path": "/home/ubuntu/Downloads/aws_hcls_table6/bmr/bmr-sample-01-clean.pdf",
+      "original_filename": "bmr-sample-01-clean.pdf"
+    }
+  ],
+  "current_fields": [
+    {
+      "name": "product_name",
+      "value": "Amoxicillin 500mg Capsules",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "batch_number",
+      "value": "BMR-2024-0847",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "equipment_ids",
+      "value": "MIX-401, GRAN-205, TAB-112",
+      "confidence": 0.9,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "operator_initials",
+      "value": "JKL",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "start_timestamp",
+      "value": "2024-11-15 08:30:00",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "end_timestamp",
+      "value": "2024-11-15 14:45:00",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_1_name",
+      "value": "Amoxicillin Trihydrate",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_1_weight_kg",
+      "value": "125.0",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_1_lot_number",
+      "value": "AMX-2024-1001",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_2_name",
+      "value": "Microcrystalline Cellulose",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_2_weight_kg",
+      "value": "45.5",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_2_lot_number",
+      "value": "MCC-2024-0553",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_3_name",
+      "value": "Magnesium Stearate",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_3_weight_kg",
+      "value": "2.5",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_3_lot_number",
+      "value": "MGS-2024-0221",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_4_name",
+      "value": "Sodium Starch Glycolate",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_4_weight_kg",
+      "value": "15.0",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_4_lot_number",
+      "value": "SSG-2024-0334",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    }
+  ],
+  "extraction_history": [],
+  "reviewer_actions": [],
+  "created_at": "2026-04-13T19:46:11.898579",
+  "updated_at": "2026-04-13T19:46:24.179360",
+  "inferred_schema": {
+    "fields": {
+      "product_name": {
+        "type": "string",
+        "description": "Extracted field: product_name"
+      },
+      "batch_number": {
+        "type": "string",
+        "description": "Extracted field: batch_number"
+      },
+      "equipment_ids": {
+        "type": "string",
+        "description": "Extracted field: equipment_ids"
+      },
+      "operator_initials": {
+        "type": "string",
+        "description": "Extracted field: operator_initials"
+      },
+      "start_timestamp": {
+        "type": "string",
+        "description": "Extracted field: start_timestamp"
+      },
+      "end_timestamp": {
+        "type": "string",
+        "description": "Extracted field: end_timestamp"
+      },
+      "ingredient_1_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_1_name"
+      },
+      "ingredient_1_weight_kg": {
+        "type": "float",
+        "description": "Extracted field: ingredient_1_weight_kg"
+      },
+      "ingredient_1_lot_number": {
+        "type": "string",
+        "description": "Extracted field: ingredient_1_lot_number"
+      },
+      "ingredient_2_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_2_name"
+      },
+      "ingredient_2_weight_kg": {
+        "type": "float",
+        "description": "Extracted field: ingredient_2_weight_kg"
+      },
+      "ingredient_2_lot_number": {
+        "type": "string",
+        "description": "Extracted field: ingredient_2_lot_number"
+      },
+      "ingredient_3_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_3_name"
+      },
+      "ingredient_3_weight_kg": {
+        "type": "float",
+        "description": "Extracted field: ingredient_3_weight_kg"
+      },
+      "ingredient_3_lot_number": {
+        "type": "string",
+        "description": "Extracted field: ingredient_3_lot_number"
+      },
+      "ingredient_4_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_4_name"
+      },
+      "ingredient_4_weight_kg": {
+        "type": "float",
+        "description": "Extracted field: ingredient_4_weight_kg"
+      },
+      "ingredient_4_lot_number": {
+        "type": "string",
+        "description": "Extracted field: ingredient_4_lot_number"
+      }
+    }
+  }
+}

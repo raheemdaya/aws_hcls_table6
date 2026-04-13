@@ -1,0 +1,186 @@
+{
+  "id": "e29d0c88-9937-4917-bd80-b5b852671e09",
+  "status": "pending_review",
+  "pages": [
+    {
+      "page_number": 1,
+      "file_path": "/home/ubuntu/Downloads/aws_hcls_table6/handwritten/bmr-handwritten-010-clean.pdf",
+      "original_filename": "bmr-handwritten-010-clean.pdf"
+    }
+  ],
+  "current_fields": [
+    {
+      "name": "product_name",
+      "value": "HYDROCHLOROTHIAZIDE 25MG TABLETS",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "batch_number",
+      "value": "BMR-2024-0010",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "equipment_ids",
+      "value": "TAB-178, COAT-C02, TAB-474, FILL-C2C",
+      "confidence": 0.9,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "operator_initials",
+      "value": "TMS",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "start_timestamp",
+      "value": "2024-02-01 09:15:00",
+      "confidence": 0.9,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "end_timestamp",
+      "value": "2024-02-01 16:00:00",
+      "confidence": 0.85,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_1_name",
+      "value": "LACTOSE MONOHYDRATE",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_1_weight_kg",
+      "value": "124.8",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_1_lot_number",
+      "value": "LH-2024-C002",
+      "confidence": 0.9,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_2_name",
+      "value": "MAGNESIUM STEARATE",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_2_weight_kg",
+      "value": "70.4",
+      "confidence": 0.9,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_2_lot_number",
+      "value": "MS-2024-68C4",
+      "confidence": 0.85,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_3_name",
+      "value": "TITANIUM DIOXIDE",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_3_weight_kg",
+      "value": "102.7",
+      "confidence": 0.9,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_3_lot_number",
+      "value": "TD-2024-1556",
+      "confidence": 0.9,
+      "status": "pending",
+      "original_value": null
+    }
+  ],
+  "extraction_history": [],
+  "reviewer_actions": [],
+  "created_at": "2026-04-13T19:48:11.851550",
+  "updated_at": "2026-04-13T19:48:21.149626",
+  "inferred_schema": {
+    "fields": {
+      "product_name": {
+        "type": "string",
+        "description": "Extracted field: product_name"
+      },
+      "batch_number": {
+        "type": "string",
+        "description": "Extracted field: batch_number"
+      },
+      "equipment_ids": {
+        "type": "string",
+        "description": "Extracted field: equipment_ids"
+      },
+      "operator_initials": {
+        "type": "string",
+        "description": "Extracted field: operator_initials"
+      },
+      "start_timestamp": {
+        "type": "string",
+        "description": "Extracted field: start_timestamp"
+      },
+      "end_timestamp": {
+        "type": "string",
+        "description": "Extracted field: end_timestamp"
+      },
+      "ingredient_1_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_1_name"
+      },
+      "ingredient_1_weight_kg": {
+        "type": "string",
+        "description": "Extracted field: ingredient_1_weight_kg"
+      },
+      "ingredient_1_lot_number": {
+        "type": "string",
+        "description": "Extracted field: ingredient_1_lot_number"
+      },
+      "ingredient_2_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_2_name"
+      },
+      "ingredient_2_weight_kg": {
+        "type": "string",
+        "description": "Extracted field: ingredient_2_weight_kg"
+      },
+      "ingredient_2_lot_number": {
+        "type": "string",
+        "description": "Extracted field: ingredient_2_lot_number"
+      },
+      "ingredient_3_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_3_name"
+      },
+      "ingredient_3_weight_kg": {
+        "type": "string",
+        "description": "Extracted field: ingredient_3_weight_kg"
+      },
+      "ingredient_3_lot_number": {
+        "type": "string",
+        "description": "Extracted field: ingredient_3_lot_number"
+      }
+    }
+  }
+}

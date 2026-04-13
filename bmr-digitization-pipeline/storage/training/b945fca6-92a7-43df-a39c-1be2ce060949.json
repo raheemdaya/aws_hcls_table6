@@ -1,0 +1,309 @@
+{
+  "id": "b945fca6-92a7-43df-a39c-1be2ce060949",
+  "status": "approved",
+  "pages": [
+    {
+      "page_number": 1,
+      "file_path": "/home/ubuntu/Downloads/aws_hcls_table6/handwritten/bmr-handwritten-007-messy.pdf",
+      "original_filename": "bmr-handwritten-007-messy.pdf"
+    }
+  ],
+  "current_fields": [
+    {
+      "name": "product_name",
+      "value": "IMUSULIN 7.5MG CAPSULES",
+      "confidence": 0.75,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "batch_number",
+      "value": "BMR-2024-0037 x GTMRZ-170 FROM BMR-2024-0036",
+      "confidence": 0.35,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "equipment_ids",
+      "value": "DRY 2871, SAM-452, DRY 2824, MIX-159",
+      "confidence": 0.55,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "operator_initials",
+      "value": "KAB",
+      "confidence": 0.85,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "start_timestamp",
+      "value": "2024-11-16 08:15:09",
+      "confidence": 0.45,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "end_timestamp",
+      "value": "2024-11-16 15:45:08",
+      "confidence": 0.45,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_1_name",
+      "value": "LACTOSE MONOHYDRATE",
+      "confidence": 0.65,
+      "status": "approved",
+      "original_value": "IMUSULIN"
+    },
+    {
+      "name": "ingredient_1_weight_kg",
+      "value": "124.89",
+      "confidence": 0.8,
+      "status": "approved",
+      "original_value": "195.4"
+    },
+    {
+      "name": "ingredient_1_lot_number",
+      "value": "L-2024-0724",
+      "confidence": 0.7,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_2_name",
+      "value": "MAGNESIUM STEARATE 2",
+      "confidence": 0.5,
+      "status": "approved",
+      "original_value": "MICROCRYSTAL CELLULOSE"
+    },
+    {
+      "name": "ingredient_2_weight_kg",
+      "value": "156.8",
+      "confidence": 0.75,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_2_lot_number",
+      "value": "MC-2024-7956",
+      "confidence": 0.6,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_3_name",
+      "value": "TALC",
+      "confidence": 0.9,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_3_weight_kg",
+      "value": "141.7",
+      "confidence": 0.85,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_3_lot_number",
+      "value": "T-2024-4786",
+      "confidence": 0.65,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_4_name",
+      "value": "CROSS CARMELLOSE SODIUM",
+      "confidence": 0.45,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_4_weight_kg",
+      "value": "88.7",
+      "confidence": 0.75,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_4_lot_number",
+      "value": "CC-2024-5177",
+      "confidence": 0.65,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_5_name",
+      "value": "CALCIUM PHOSPHATE",
+      "confidence": 0.5,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_5_weight_kg",
+      "value": "95.9",
+      "confidence": 0.8,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_5_lot_number",
+      "value": "CP-2024-0246",
+      "confidence": 0.6,
+      "status": "approved",
+      "original_value": null
+    }
+  ],
+  "extraction_history": [],
+  "reviewer_actions": [
+    {
+      "action": "edit_field",
+      "timestamp": "2026-04-13T19:50:13.906842",
+      "field_name": "ingredient_1_name",
+      "old_value": "IMUSULIN",
+      "new_value": "LACTOSE MONOHYDRATE",
+      "notes": null
+    },
+    {
+      "action": "approve_field",
+      "timestamp": "2026-04-13T19:50:13.906892",
+      "field_name": "ingredient_1_name",
+      "old_value": null,
+      "new_value": null,
+      "notes": null
+    },
+    {
+      "action": "edit_field",
+      "timestamp": "2026-04-13T19:50:16.777971",
+      "field_name": "ingredient_1_weight_kg",
+      "old_value": "195.4",
+      "new_value": "124.89",
+      "notes": null
+    },
+    {
+      "action": "approve_field",
+      "timestamp": "2026-04-13T19:50:16.778036",
+      "field_name": "ingredient_1_weight_kg",
+      "old_value": null,
+      "new_value": null,
+      "notes": null
+    },
+    {
+      "action": "edit_field",
+      "timestamp": "2026-04-13T19:50:20.295466",
+      "field_name": "ingredient_2_name",
+      "old_value": "MICROCRYSTAL CELLULOSE",
+      "new_value": "MAGNESIUM STEARATE 2",
+      "notes": null
+    },
+    {
+      "action": "approve_field",
+      "timestamp": "2026-04-13T19:50:20.295540",
+      "field_name": "ingredient_2_name",
+      "old_value": null,
+      "new_value": null,
+      "notes": null
+    },
+    {
+      "action": "approve_record",
+      "timestamp": "2026-04-13T19:50:24.341266",
+      "field_name": null,
+      "old_value": null,
+      "new_value": null,
+      "notes": null
+    }
+  ],
+  "created_at": "2026-04-13T19:47:44.682472",
+  "updated_at": "2026-04-13T19:50:24.342020",
+  "inferred_schema": {
+    "fields": {
+      "product_name": {
+        "type": "string",
+        "description": "Extracted field: product_name"
+      },
+      "batch_number": {
+        "type": "string",
+        "description": "Extracted field: batch_number"
+      },
+      "equipment_ids": {
+        "type": "string",
+        "description": "Extracted field: equipment_ids"
+      },
+      "operator_initials": {
+        "type": "string",
+        "description": "Extracted field: operator_initials"
+      },
+      "start_timestamp": {
+        "type": "string",
+        "description": "Extracted field: start_timestamp"
+      },
+      "end_timestamp": {
+        "type": "string",
+        "description": "Extracted field: end_timestamp"
+      },
+      "ingredient_1_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_1_name"
+      },
+      "ingredient_1_weight_kg": {
+        "type": "string",
+        "description": "Extracted field: ingredient_1_weight_kg"
+      },
+      "ingredient_1_lot_number": {
+        "type": "string",
+        "description": "Extracted field: ingredient_1_lot_number"
+      },
+      "ingredient_2_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_2_name"
+      },
+      "ingredient_2_weight_kg": {
+        "type": "string",
+        "description": "Extracted field: ingredient_2_weight_kg"
+      },
+      "ingredient_2_lot_number": {
+        "type": "string",
+        "description": "Extracted field: ingredient_2_lot_number"
+      },
+      "ingredient_3_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_3_name"
+      },
+      "ingredient_3_weight_kg": {
+        "type": "string",
+        "description": "Extracted field: ingredient_3_weight_kg"
+      },
+      "ingredient_3_lot_number": {
+        "type": "string",
+        "description": "Extracted field: ingredient_3_lot_number"
+      },
+      "ingredient_4_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_4_name"
+      },
+      "ingredient_4_weight_kg": {
+        "type": "string",
+        "description": "Extracted field: ingredient_4_weight_kg"
+      },
+      "ingredient_4_lot_number": {
+        "type": "string",
+        "description": "Extracted field: ingredient_4_lot_number"
+      },
+      "ingredient_5_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_5_name"
+      },
+      "ingredient_5_weight_kg": {
+        "type": "string",
+        "description": "Extracted field: ingredient_5_weight_kg"
+      },
+      "ingredient_5_lot_number": {
+        "type": "string",
+        "description": "Extracted field: ingredient_5_lot_number"
+      }
+    }
+  }
+}

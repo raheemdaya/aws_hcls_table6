@@ -1,0 +1,296 @@
+{
+  "id": "cc0a7a29-6ae6-4515-ad6a-366410f83e02",
+  "status": "pending_review",
+  "pages": [
+    {
+      "page_number": 1,
+      "file_path": "/home/ubuntu/Downloads/aws_hcls_table6/bmr/bmr-sample-02-messy.pdf",
+      "original_filename": "bmr-sample-02-messy.pdf"
+    }
+  ],
+  "current_fields": [
+    {
+      "name": "product_name",
+      "value": "Metformin HCl 850mg Tablets",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "batch_number",
+      "value": "BMR-2024-1203",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "batch_number_corrected_from",
+      "value": "BMR-2024-1103",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "equipment_ids",
+      "value": "MIX-402, GRAN-207, TAB-115, COAT-301",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "operator_initials",
+      "value": "RNP",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "start_timestamp",
+      "value": "2024-12-03 07:15:00",
+      "confidence": 0.9,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "end_timestamp",
+      "value": "2024-12-03 16:30:00",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_1_name",
+      "value": "Metformin Hydrochloride",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_1_weight_kg",
+      "value": "212.5",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_1_lot_number",
+      "value": "MET-2024-2201",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_2_name",
+      "value": "Povidone K30",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_2_weight_kg",
+      "value": "18.0",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_2_lot_number",
+      "value": "PVD-2024-0887",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_3_name",
+      "value": "Magnesium Stearate",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_3_weight_kg",
+      "value": "3.0",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_3_lot_number",
+      "value": "MGS-2024-0225",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_4_name",
+      "value": "Hypromellose",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_4_weight_kg",
+      "value": "8.5",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_4_lot_number",
+      "value": "HPM-2024-0412",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_5_name",
+      "value": "Colloidal Silicon Dioxide",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_5_weight_kg",
+      "value": "1.5",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_5_lot_number",
+      "value": "CSD-2024-0109",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "document_type",
+      "value": "Batch Manufacturing Record (BMR)",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "difficulty_variant",
+      "value": "MESSY - Difficult handwriting with corrections and crossed-out entries",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "document_status",
+      "value": "PLACEHOLDER DOCUMENT",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    }
+  ],
+  "extraction_history": [],
+  "reviewer_actions": [],
+  "created_at": "2026-04-13T19:46:24.180294",
+  "updated_at": "2026-04-13T19:46:33.661253",
+  "inferred_schema": {
+    "fields": {
+      "product_name": {
+        "type": "string",
+        "description": "Extracted field: product_name"
+      },
+      "batch_number": {
+        "type": "string",
+        "description": "Extracted field: batch_number"
+      },
+      "batch_number_corrected_from": {
+        "type": "string",
+        "description": "Extracted field: batch_number_corrected_from"
+      },
+      "equipment_ids": {
+        "type": "string",
+        "description": "Extracted field: equipment_ids"
+      },
+      "operator_initials": {
+        "type": "string",
+        "description": "Extracted field: operator_initials"
+      },
+      "start_timestamp": {
+        "type": "string",
+        "description": "Extracted field: start_timestamp"
+      },
+      "end_timestamp": {
+        "type": "string",
+        "description": "Extracted field: end_timestamp"
+      },
+      "ingredient_1_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_1_name"
+      },
+      "ingredient_1_weight_kg": {
+        "type": "float",
+        "description": "Extracted field: ingredient_1_weight_kg"
+      },
+      "ingredient_1_lot_number": {
+        "type": "string",
+        "description": "Extracted field: ingredient_1_lot_number"
+      },
+      "ingredient_2_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_2_name"
+      },
+      "ingredient_2_weight_kg": {
+        "type": "float",
+        "description": "Extracted field: ingredient_2_weight_kg"
+      },
+      "ingredient_2_lot_number": {
+        "type": "string",
+        "description": "Extracted field: ingredient_2_lot_number"
+      },
+      "ingredient_3_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_3_name"
+      },
+      "ingredient_3_weight_kg": {
+        "type": "float",
+        "description": "Extracted field: ingredient_3_weight_kg"
+      },
+      "ingredient_3_lot_number": {
+        "type": "string",
+        "description": "Extracted field: ingredient_3_lot_number"
+      },
+      "ingredient_4_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_4_name"
+      },
+      "ingredient_4_weight_kg": {
+        "type": "float",
+        "description": "Extracted field: ingredient_4_weight_kg"
+      },
+      "ingredient_4_lot_number": {
+        "type": "string",
+        "description": "Extracted field: ingredient_4_lot_number"
+      },
+      "ingredient_5_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_5_name"
+      },
+      "ingredient_5_weight_kg": {
+        "type": "float",
+        "description": "Extracted field: ingredient_5_weight_kg"
+      },
+      "ingredient_5_lot_number": {
+        "type": "string",
+        "description": "Extracted field: ingredient_5_lot_number"
+      },
+      "document_type": {
+        "type": "string",
+        "description": "Extracted field: document_type"
+      },
+      "difficulty_variant": {
+        "type": "string",
+        "description": "Extracted field: difficulty_variant"
+      },
+      "document_status": {
+        "type": "string",
+        "description": "Extracted field: document_status"
+      }
+    }
+  }
+}

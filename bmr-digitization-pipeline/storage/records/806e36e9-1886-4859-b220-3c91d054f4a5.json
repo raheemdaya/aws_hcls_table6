@@ -1,0 +1,131 @@
+{
+  "id": "806e36e9-1886-4859-b220-3c91d054f4a5",
+  "status": "pending_review",
+  "pages": [
+    {
+      "page_number": 1,
+      "file_path": "/home/ubuntu/Downloads/aws_hcls_table6/handwritten/bmr-handwritten-008-messy.pdf",
+      "original_filename": "bmr-handwritten-008-messy.pdf"
+    }
+  ],
+  "current_fields": [
+    {
+      "name": "document_type",
+      "value": "Batch Manufacturing Record (BMR)",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "difficulty_level",
+      "value": "MESSY - Difficult handwriting with corrections",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "product_name",
+      "value": null,
+      "confidence": 0.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "batch_number",
+      "value": null,
+      "confidence": 0.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "equipment_ids",
+      "value": null,
+      "confidence": 0.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "operator_initials",
+      "value": "HMN",
+      "confidence": 0.85,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "start_timestamp",
+      "value": null,
+      "confidence": 0.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "end_timestamp",
+      "value": null,
+      "confidence": 0.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredients",
+      "value": "[{'ingredient_name': 'LACTOSE MONOHYDRATE', 'weight_kg': '186.9', 'lot_number': 'LN-2024-0949'}, {'ingredient_name': 'MAGNESIUM STEARATE', 'weight_kg': '4.1', 'lot_number': 'H-2024-1236'}, {'ingredient_name': 'PREGELATINIZED STARCH', 'weight_kg': '18.4', 'lot_number': 'PS-2024-7844'}, {'ingredient_name': 'TITANIUM DIOXIDE', 'weight_kg': '185.1', 'lot_number': 'TD-2024-5676'}, {'ingredient_name': 'STEARIC ACID', 'weight_kg': '226.7', 'lot_number': 'SA-2024-8239'}]",
+      "confidence": 0.65,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "note",
+      "value": "Handwriting is heavily obscured and difficult to read. Product name, batch number, equipment IDs, and timestamps could not be reliably extracted due to illegibility.",
+      "confidence": 0.9,
+      "status": "pending",
+      "original_value": null
+    }
+  ],
+  "extraction_history": [],
+  "reviewer_actions": [],
+  "created_at": "2026-04-13T19:47:53.475601",
+  "updated_at": "2026-04-13T19:48:03.691012",
+  "inferred_schema": {
+    "fields": {
+      "document_type": {
+        "type": "string",
+        "description": "Extracted field: document_type"
+      },
+      "difficulty_level": {
+        "type": "string",
+        "description": "Extracted field: difficulty_level"
+      },
+      "product_name": {
+        "type": "NoneType",
+        "description": "Extracted field: product_name"
+      },
+      "batch_number": {
+        "type": "NoneType",
+        "description": "Extracted field: batch_number"
+      },
+      "equipment_ids": {
+        "type": "NoneType",
+        "description": "Extracted field: equipment_ids"
+      },
+      "operator_initials": {
+        "type": "string",
+        "description": "Extracted field: operator_initials"
+      },
+      "start_timestamp": {
+        "type": "NoneType",
+        "description": "Extracted field: start_timestamp"
+      },
+      "end_timestamp": {
+        "type": "NoneType",
+        "description": "Extracted field: end_timestamp"
+      },
+      "ingredients": {
+        "type": "list",
+        "description": "Extracted field: ingredients"
+      },
+      "note": {
+        "type": "string",
+        "description": "Extracted field: note"
+      }
+    }
+  }
+}

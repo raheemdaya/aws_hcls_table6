@@ -1,0 +1,475 @@
+{
+  "id": "e0e994b0-2fa7-4d74-878b-8d0e613cd54f",
+  "status": "approved",
+  "pages": [
+    {
+      "page_number": 1,
+      "file_path": "/home/ubuntu/Downloads/aws_hcls_table6/bmr/batch record 004.pdf",
+      "original_filename": "batch record 004.pdf"
+    }
+  ],
+  "current_fields": [
+    {
+      "name": "document_type",
+      "value": "Manufacturing Batch Record",
+      "confidence": 0.95,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "confidential",
+      "value": "True",
+      "confidence": 0.95,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "facility",
+      "value": "AH-M0880 FLEx Center",
+      "confidence": 0.95,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "page_number",
+      "value": "42 of 130",
+      "confidence": 0.95,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "mbr_number",
+      "value": "M0412",
+      "confidence": 0.95,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "batch_number",
+      "value": "035911",
+      "confidence": 0.95,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "batch_size_kg",
+      "value": "600",
+      "confidence": 0.95,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "product_name",
+      "value": "20.0% (w/w) OmniShield 0.125% (w/w) Ivermectin Soft Chewable Tablets for Dogs",
+      "confidence": 0.9,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "step",
+      "value": "C. Unit Op: Instructions for Batch Manufacture",
+      "confidence": 0.9,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "section",
+      "value": "Labels (cont.)",
+      "confidence": 0.9,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "expiry_date",
+      "value": "09-Sep-2027",
+      "confidence": 0.95,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "label_number",
+      "value": "No.1/1",
+      "confidence": 0.95,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "material_1_number",
+      "value": "628475",
+      "confidence": 0.95,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "material_1_description",
+      "value": "Dicalcium Phosphate Dihydrate Di-Tab Grade",
+      "confidence": 0.95,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "material_1_po_number",
+      "value": "/00000",
+      "confidence": 0.95,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "material_1_batch_number",
+      "value": "0000648204",
+      "confidence": 0.95,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "material_1_vendor_batch",
+      "value": "445MN17",
+      "confidence": 0.95,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "material_1_qty_uom",
+      "value": "4.100 KG",
+      "confidence": 0.95,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "material_1_storage_condition",
+      "value": "15–25°C",
+      "confidence": 0.95,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "material_2_number",
+      "value": "S5317094",
+      "confidence": 0.9,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "material_2_description",
+      "value": "TALC PHARMACEUTICAL GRADE",
+      "confidence": 0.85,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "material_2_batch_id",
+      "value": "80019553-U",
+      "confidence": 0.9,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "material_2_qty",
+      "value": "910.800 G",
+      "confidence": 0.9,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "material_2_identifier",
+      "value": "1013178964",
+      "confidence": 0.85,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "material_3_description",
+      "value": "POLYVINYL PYRROLIDONE K30",
+      "confidence": 0.85,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "material_3_process_order",
+      "value": "RY550-EF",
+      "confidence": 0.85,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "material_3_qty",
+      "value": "5120.0 G",
+      "confidence": 0.85,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "material_3_identifier",
+      "value": "96441023",
+      "confidence": 0.8,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "material_3_reference_number",
+      "value": "0001872346",
+      "confidence": 0.8,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "material_3_u_number",
+      "value": "1013171802",
+      "confidence": 0.85,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "final_reference",
+      "value": "1013178964 / 1.0",
+      "confidence": 0.85,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "sop_number",
+      "value": "SOP-015203847",
+      "confidence": 0.95,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "sop_version",
+      "value": "Ver 4.0",
+      "confidence": 0.95,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "document_status",
+      "value": "Reference Copy",
+      "confidence": 0.95,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "print_date",
+      "value": "07-Sep-2024",
+      "confidence": 0.95,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "handwritten_batch_number",
+      "value": "24090733",
+      "confidence": 0.5,
+      "status": "approved",
+      "original_value": "2409073"
+    },
+    {
+      "name": "handwritten_tare_weight_kg",
+      "value": "0.441",
+      "confidence": 0.45,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "handwritten_performed_by",
+      "value": "CB 07SEP2024",
+      "confidence": 0.4,
+      "status": "approved",
+      "original_value": null
+    },
+    {
+      "name": "handwritten_verified_by",
+      "value": "FH 07SEP2024",
+      "confidence": 0.4,
+      "status": "approved",
+      "original_value": null
+    }
+  ],
+  "extraction_history": [],
+  "reviewer_actions": [
+    {
+      "action": "edit_field",
+      "timestamp": "2026-04-13T19:49:28.557122",
+      "field_name": "handwritten_batch_number",
+      "old_value": "2409073",
+      "new_value": "24090733",
+      "notes": null
+    },
+    {
+      "action": "approve_field",
+      "timestamp": "2026-04-13T19:49:28.557337",
+      "field_name": "handwritten_batch_number",
+      "old_value": null,
+      "new_value": null,
+      "notes": null
+    },
+    {
+      "action": "approve_record",
+      "timestamp": "2026-04-13T19:49:32.501127",
+      "field_name": null,
+      "old_value": null,
+      "new_value": null,
+      "notes": null
+    }
+  ],
+  "created_at": "2026-04-13T19:46:01.209650",
+  "updated_at": "2026-04-13T19:49:32.501233",
+  "inferred_schema": {
+    "fields": {
+      "document_type": {
+        "type": "string",
+        "description": "Extracted field: document_type"
+      },
+      "confidential": {
+        "type": "bool",
+        "description": "Extracted field: confidential"
+      },
+      "facility": {
+        "type": "string",
+        "description": "Extracted field: facility"
+      },
+      "page_number": {
+        "type": "string",
+        "description": "Extracted field: page_number"
+      },
+      "mbr_number": {
+        "type": "string",
+        "description": "Extracted field: mbr_number"
+      },
+      "batch_number": {
+        "type": "string",
+        "description": "Extracted field: batch_number"
+      },
+      "batch_size_kg": {
+        "type": "int",
+        "description": "Extracted field: batch_size_kg"
+      },
+      "product_name": {
+        "type": "string",
+        "description": "Extracted field: product_name"
+      },
+      "step": {
+        "type": "string",
+        "description": "Extracted field: step"
+      },
+      "section": {
+        "type": "string",
+        "description": "Extracted field: section"
+      },
+      "expiry_date": {
+        "type": "string",
+        "description": "Extracted field: expiry_date"
+      },
+      "label_number": {
+        "type": "string",
+        "description": "Extracted field: label_number"
+      },
+      "material_1_number": {
+        "type": "string",
+        "description": "Extracted field: material_1_number"
+      },
+      "material_1_description": {
+        "type": "string",
+        "description": "Extracted field: material_1_description"
+      },
+      "material_1_po_number": {
+        "type": "string",
+        "description": "Extracted field: material_1_po_number"
+      },
+      "material_1_batch_number": {
+        "type": "string",
+        "description": "Extracted field: material_1_batch_number"
+      },
+      "material_1_vendor_batch": {
+        "type": "string",
+        "description": "Extracted field: material_1_vendor_batch"
+      },
+      "material_1_qty_uom": {
+        "type": "string",
+        "description": "Extracted field: material_1_qty_uom"
+      },
+      "material_1_storage_condition": {
+        "type": "string",
+        "description": "Extracted field: material_1_storage_condition"
+      },
+      "material_2_number": {
+        "type": "string",
+        "description": "Extracted field: material_2_number"
+      },
+      "material_2_description": {
+        "type": "string",
+        "description": "Extracted field: material_2_description"
+      },
+      "material_2_batch_id": {
+        "type": "string",
+        "description": "Extracted field: material_2_batch_id"
+      },
+      "material_2_qty": {
+        "type": "string",
+        "description": "Extracted field: material_2_qty"
+      },
+      "material_2_identifier": {
+        "type": "string",
+        "description": "Extracted field: material_2_identifier"
+      },
+      "material_3_description": {
+        "type": "string",
+        "description": "Extracted field: material_3_description"
+      },
+      "material_3_process_order": {
+        "type": "string",
+        "description": "Extracted field: material_3_process_order"
+      },
+      "material_3_qty": {
+        "type": "string",
+        "description": "Extracted field: material_3_qty"
+      },
+      "material_3_identifier": {
+        "type": "string",
+        "description": "Extracted field: material_3_identifier"
+      },
+      "material_3_reference_number": {
+        "type": "string",
+        "description": "Extracted field: material_3_reference_number"
+      },
+      "material_3_u_number": {
+        "type": "string",
+        "description": "Extracted field: material_3_u_number"
+      },
+      "final_reference": {
+        "type": "string",
+        "description": "Extracted field: final_reference"
+      },
+      "sop_number": {
+        "type": "string",
+        "description": "Extracted field: sop_number"
+      },
+      "sop_version": {
+        "type": "string",
+        "description": "Extracted field: sop_version"
+      },
+      "document_status": {
+        "type": "string",
+        "description": "Extracted field: document_status"
+      },
+      "print_date": {
+        "type": "string",
+        "description": "Extracted field: print_date"
+      },
+      "handwritten_batch_number": {
+        "type": "string",
+        "description": "Extracted field: handwritten_batch_number"
+      },
+      "handwritten_tare_weight_kg": {
+        "type": "string",
+        "description": "Extracted field: handwritten_tare_weight_kg"
+      },
+      "handwritten_performed_by": {
+        "type": "string",
+        "description": "Extracted field: handwritten_performed_by"
+      },
+      "handwritten_verified_by": {
+        "type": "string",
+        "description": "Extracted field: handwritten_verified_by"
+      }
+    }
+  }
+}

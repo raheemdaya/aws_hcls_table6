@@ -1,0 +1,219 @@
+{
+  "id": "90c56d63-bb2f-48d1-b058-122c3d6c9add",
+  "status": "pending_review",
+  "pages": [
+    {
+      "page_number": 1,
+      "file_path": "/home/ubuntu/Downloads/aws_hcls_table6/handwritten/bmr-handwritten-003-clean.pdf",
+      "original_filename": "bmr-handwritten-003-clean.pdf"
+    }
+  ],
+  "current_fields": [
+    {
+      "name": "product_name",
+      "value": "PANTOPRAZOLE 40MG TABLETS",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "batch_number",
+      "value": "BMR-2024-0001",
+      "confidence": 0.85,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "equipment_ids",
+      "value": "TAB-478, FILL-254",
+      "confidence": 0.9,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "operator_initials",
+      "value": "PQR",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "start_timestamp",
+      "value": "2024-01-15 07:15:00",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "end_timestamp",
+      "value": "2024-01-15 11:45:00",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_1_name",
+      "value": "HYDROXYPROPYL CELLULOSE",
+      "confidence": 0.9,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_1_weight_kg",
+      "value": "61.9",
+      "confidence": 0.85,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_1_lot_number",
+      "value": "HC-2024-8194",
+      "confidence": 0.9,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_2_name",
+      "value": "POVIDONE K30",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_2_weight_kg",
+      "value": "169.1",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_2_lot_number",
+      "value": "PK-2024-5865",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_3_name",
+      "value": "CROSCARMELLOSE SODIUM",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_3_weight_kg",
+      "value": "151.1",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_3_lot_number",
+      "value": "CS-2024-8006",
+      "confidence": 0.85,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_4_name",
+      "value": "MANNITOL",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_4_weight_kg",
+      "value": "150.2",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_4_lot_number",
+      "value": "M-2024-2516",
+      "confidence": 0.95,
+      "status": "pending",
+      "original_value": null
+    }
+  ],
+  "extraction_history": [],
+  "reviewer_actions": [],
+  "created_at": "2026-04-13T19:47:09.039496",
+  "updated_at": "2026-04-13T19:47:15.803624",
+  "inferred_schema": {
+    "fields": {
+      "product_name": {
+        "type": "string",
+        "description": "Extracted field: product_name"
+      },
+      "batch_number": {
+        "type": "string",
+        "description": "Extracted field: batch_number"
+      },
+      "equipment_ids": {
+        "type": "string",
+        "description": "Extracted field: equipment_ids"
+      },
+      "operator_initials": {
+        "type": "string",
+        "description": "Extracted field: operator_initials"
+      },
+      "start_timestamp": {
+        "type": "string",
+        "description": "Extracted field: start_timestamp"
+      },
+      "end_timestamp": {
+        "type": "string",
+        "description": "Extracted field: end_timestamp"
+      },
+      "ingredient_1_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_1_name"
+      },
+      "ingredient_1_weight_kg": {
+        "type": "string",
+        "description": "Extracted field: ingredient_1_weight_kg"
+      },
+      "ingredient_1_lot_number": {
+        "type": "string",
+        "description": "Extracted field: ingredient_1_lot_number"
+      },
+      "ingredient_2_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_2_name"
+      },
+      "ingredient_2_weight_kg": {
+        "type": "string",
+        "description": "Extracted field: ingredient_2_weight_kg"
+      },
+      "ingredient_2_lot_number": {
+        "type": "string",
+        "description": "Extracted field: ingredient_2_lot_number"
+      },
+      "ingredient_3_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_3_name"
+      },
+      "ingredient_3_weight_kg": {
+        "type": "string",
+        "description": "Extracted field: ingredient_3_weight_kg"
+      },
+      "ingredient_3_lot_number": {
+        "type": "string",
+        "description": "Extracted field: ingredient_3_lot_number"
+      },
+      "ingredient_4_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_4_name"
+      },
+      "ingredient_4_weight_kg": {
+        "type": "string",
+        "description": "Extracted field: ingredient_4_weight_kg"
+      },
+      "ingredient_4_lot_number": {
+        "type": "string",
+        "description": "Extracted field: ingredient_4_lot_number"
+      }
+    }
+  }
+}

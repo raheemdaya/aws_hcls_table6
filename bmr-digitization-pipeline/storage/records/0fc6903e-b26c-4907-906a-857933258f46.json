@@ -1,0 +1,439 @@
+{
+  "id": "0fc6903e-b26c-4907-906a-857933258f46",
+  "status": "pending_review",
+  "pages": [
+    {
+      "page_number": 1,
+      "file_path": "/home/ubuntu/Downloads/aws_hcls_table6/bmr/bmr-workshop-demo.pdf",
+      "original_filename": "bmr-workshop-demo.pdf"
+    }
+  ],
+  "current_fields": [
+    {
+      "name": "form_number",
+      "value": "BMR-001",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "form_revision",
+      "value": "3.2",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "manufacturing_division",
+      "value": "PharmaCorp Manufacturing Division",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "document_status",
+      "value": "SAMPLE - FOR WORKSHOP USE ONLY",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "product_name",
+      "value": "Amoxicillin 500mg Capsules",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "batch_number",
+      "value": "BMR-2024-0847",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "batch_size_units",
+      "value": "50,000 capsules",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "batch_size_weight",
+      "value": "25.0 kg",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "manufacturing_date",
+      "value": "15-Mar-2024",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "operator_initials",
+      "value": "JKL",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "supervisor",
+      "value": "Dr. S. Patel",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "qa_reviewer",
+      "value": "M. Thompson",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "equipment_1_id",
+      "value": "MIX-401",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "equipment_1_description",
+      "value": "High-Shear Granulator",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "equipment_1_calibration_due",
+      "value": "2024-09-30",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "equipment_2_id",
+      "value": "GRAN-205",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "equipment_2_description",
+      "value": "Fluid Bed Dryer",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "equipment_2_calibration_due",
+      "value": "2024-08-15",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "equipment_3_id",
+      "value": "PRESS-112",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "equipment_3_description",
+      "value": "Rotary Tablet Press",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "equipment_3_calibration_due",
+      "value": "2024-11-01",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_1_name",
+      "value": "Amoxicillin Trihydrate",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_1_weight_kg",
+      "value": "25.00",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_1_lot_number",
+      "value": "LOT-AM-20240115",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_1_verified_by",
+      "value": "JKL",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_2_name",
+      "value": "Magnesium Stearate",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_2_weight_kg",
+      "value": "0.75",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_2_lot_number",
+      "value": "LOT-MG-20240203",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_2_verified_by",
+      "value": "JKL",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_3_name",
+      "value": "Microcrystalline Cellulose",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_3_weight_kg",
+      "value": "12.50",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_3_lot_number",
+      "value": "LOT-MC-20240118",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "ingredient_3_verified_by",
+      "value": "JKL",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "process_start_date",
+      "value": "2024-03-15",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "process_start_time",
+      "value": "06:30",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "process_end_date",
+      "value": "2024-03-15",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "process_end_time",
+      "value": "14:45",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    },
+    {
+      "name": "total_process_duration",
+      "value": "8 hours 15 minutes",
+      "confidence": 1.0,
+      "status": "pending",
+      "original_value": null
+    }
+  ],
+  "extraction_history": [],
+  "reviewer_actions": [],
+  "created_at": "2026-04-13T19:46:41.893408",
+  "updated_at": "2026-04-13T19:46:53.658022",
+  "inferred_schema": {
+    "fields": {
+      "form_number": {
+        "type": "string",
+        "description": "Extracted field: form_number"
+      },
+      "form_revision": {
+        "type": "string",
+        "description": "Extracted field: form_revision"
+      },
+      "manufacturing_division": {
+        "type": "string",
+        "description": "Extracted field: manufacturing_division"
+      },
+      "document_status": {
+        "type": "string",
+        "description": "Extracted field: document_status"
+      },
+      "product_name": {
+        "type": "string",
+        "description": "Extracted field: product_name"
+      },
+      "batch_number": {
+        "type": "string",
+        "description": "Extracted field: batch_number"
+      },
+      "batch_size_units": {
+        "type": "string",
+        "description": "Extracted field: batch_size_units"
+      },
+      "batch_size_weight": {
+        "type": "string",
+        "description": "Extracted field: batch_size_weight"
+      },
+      "manufacturing_date": {
+        "type": "string",
+        "description": "Extracted field: manufacturing_date"
+      },
+      "operator_initials": {
+        "type": "string",
+        "description": "Extracted field: operator_initials"
+      },
+      "supervisor": {
+        "type": "string",
+        "description": "Extracted field: supervisor"
+      },
+      "qa_reviewer": {
+        "type": "string",
+        "description": "Extracted field: qa_reviewer"
+      },
+      "equipment_1_id": {
+        "type": "string",
+        "description": "Extracted field: equipment_1_id"
+      },
+      "equipment_1_description": {
+        "type": "string",
+        "description": "Extracted field: equipment_1_description"
+      },
+      "equipment_1_calibration_due": {
+        "type": "string",
+        "description": "Extracted field: equipment_1_calibration_due"
+      },
+      "equipment_2_id": {
+        "type": "string",
+        "description": "Extracted field: equipment_2_id"
+      },
+      "equipment_2_description": {
+        "type": "string",
+        "description": "Extracted field: equipment_2_description"
+      },
+      "equipment_2_calibration_due": {
+        "type": "string",
+        "description": "Extracted field: equipment_2_calibration_due"
+      },
+      "equipment_3_id": {
+        "type": "string",
+        "description": "Extracted field: equipment_3_id"
+      },
+      "equipment_3_description": {
+        "type": "string",
+        "description": "Extracted field: equipment_3_description"
+      },
+      "equipment_3_calibration_due": {
+        "type": "string",
+        "description": "Extracted field: equipment_3_calibration_due"
+      },
+      "ingredient_1_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_1_name"
+      },
+      "ingredient_1_weight_kg": {
+        "type": "string",
+        "description": "Extracted field: ingredient_1_weight_kg"
+      },
+      "ingredient_1_lot_number": {
+        "type": "string",
+        "description": "Extracted field: ingredient_1_lot_number"
+      },
+      "ingredient_1_verified_by": {
+        "type": "string",
+        "description": "Extracted field: ingredient_1_verified_by"
+      },
+      "ingredient_2_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_2_name"
+      },
+      "ingredient_2_weight_kg": {
+        "type": "string",
+        "description": "Extracted field: ingredient_2_weight_kg"
+      },
+      "ingredient_2_lot_number": {
+        "type": "string",
+        "description": "Extracted field: ingredient_2_lot_number"
+      },
+      "ingredient_2_verified_by": {
+        "type": "string",
+        "description": "Extracted field: ingredient_2_verified_by"
+      },
+      "ingredient_3_name": {
+        "type": "string",
+        "description": "Extracted field: ingredient_3_name"
+      },
+      "ingredient_3_weight_kg": {
+        "type": "string",
+        "description": "Extracted field: ingredient_3_weight_kg"
+      },
+      "ingredient_3_lot_number": {
+        "type": "string",
+        "description": "Extracted field: ingredient_3_lot_number"
+      },
+      "ingredient_3_verified_by": {
+        "type": "string",
+        "description": "Extracted field: ingredient_3_verified_by"
+      },
+      "process_start_date": {
+        "type": "string",
+        "description": "Extracted field: process_start_date"
+      },
+      "process_start_time": {
+        "type": "string",
+        "description": "Extracted field: process_start_time"
+      },
+      "process_end_date": {
+        "type": "string",
+        "description": "Extracted field: process_end_date"
+      },
+      "process_end_time": {
+        "type": "string",
+        "description": "Extracted field: process_end_time"
+      },
+      "total_process_duration": {
+        "type": "string",
+        "description": "Extracted field: total_process_duration"
+      }
+    }
+  }
+}
