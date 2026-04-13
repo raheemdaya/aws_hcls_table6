@@ -1,0 +1,4 @@
+# file: /home/ubuntu/Downloads/aws_hcls_table6/bmr-digitization-pipeline/src/bmr_pipeline/extraction.py
+# hypothesis_version: 6.151.13
+
+[0.0, '2024-01-15', 'BATCH-2024-001', 'J. Smith', 'Manufacturing date', 'batch_number', 'date', 'description', 'fields', 'format', 'mock-extraction-v1', 'operator', 'product_name', 'reviewer_context', 'string', 'type']

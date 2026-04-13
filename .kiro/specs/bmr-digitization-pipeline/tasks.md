@@ -84,24 +84,24 @@ Incremental implementation of the BMR digitization pipeline in Python. Each task
     - Test failed extraction returns error details
     - _Requirements: 3.4, 3.5_
 
-- [ ] 7. Implement ConfidenceScorer protocol and mock implementation
-  - [-] 7.1 Create `src/bmr_pipeline/scoring.py`
+- [x] 7. Implement ConfidenceScorer protocol and mock implementation
+  - [x] 7.1 Create `src/bmr_pipeline/scoring.py`
     - Define `ConfidenceScorer` Protocol with `score(record, extraction_result)` method
     - Implement `MockConfidenceScorer` for testing
     - Handle scoring failure by assigning 0.0 to failed fields
     - _Requirements: 4.1, 4.2, 4.3, 4.4_
 
-  - [~]* 7.2 Write property test: Confidence scores are in valid range
+  - [x]* 7.2 Write property test: Confidence scores are in valid range
     - **Property 4: Confidence scores are in valid range**
     - **Validates: Requirements 4.1, 4.3**
 
-  - [~]* 7.3 Write unit tests for ConfidenceScorer
+  - [x]* 7.3 Write unit tests for ConfidenceScorer
     - Test scorer configuration (same vs separate model)
     - Test scoring failure defaults to 0.0
     - _Requirements: 4.2, 4.4_
 
 - [ ] 8. Implement RecordStore (JSON persistence)
-  - [~] 8.1 Create `src/bmr_pipeline/record_store.py`
+  - [-] 8.1 Create `src/bmr_pipeline/record_store.py`
     - Implement `RecordStore` with `save(record)`, `load(record_id)`, `list_records()` methods
     - Persist records as JSON files in `storage/records/`
     - `list_records()` returns `RecordSummary` objects ordered by creation date descending
