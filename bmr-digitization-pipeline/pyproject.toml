@@ -1,0 +1,25 @@
+[project]
+name = "bmr-digitization-pipeline"
+version = "0.1.0"
+description = "BMR Digitization & Validation Pipeline"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.0",
+    "streamlit>=1.30",
+    "Pillow>=10.0",
+    "PyPDF2>=3.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "hypothesis>=6.0",
+    "pytest>=7.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
