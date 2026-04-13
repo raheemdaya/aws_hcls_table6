@@ -143,7 +143,7 @@ Incremental implementation of the BMR digitization pipeline in Python. Each task
     - Test retraining trigger logging
     - _Requirements: 8.3, 8.4_
 
-- [ ] 12. Implement PipelineOrchestrator
+- [x] 12. Implement PipelineOrchestrator
   - [x] 12.1 Create `src/bmr_pipeline/orchestrator.py`
     - Implement `PipelineOrchestrator` with `process(file_paths)` and `process_reextraction(record_id)` methods
     - Wire together: InputValidator → PageAssembler → ExtractionModel → ConfidenceScorer → RecordStore
@@ -155,13 +155,13 @@ Incremental implementation of the BMR digitization pipeline in Python. Each task
     - **Property 8: Re-extraction updates current fields and preserves full history**
     - **Validates: Requirements 6.3, 6.4**
 
-  - [-]* 12.3 Write unit tests for PipelineOrchestrator
+  - [x]* 12.3 Write unit tests for PipelineOrchestrator
     - Test end-to-end pipeline with mock LLM
     - Test failed extraction marks record as FAILED
     - _Requirements: 3.5_
 
-- [ ] 13. Implement Streamlit Review UI
-  - [~] 13.1 Create `ui/app.py` with Streamlit review interface
+- [x] 13. Implement Streamlit Review UI
+  - [x] 13.1 Create `ui/app.py` with Streamlit review interface
     - List records ordered by extraction date (most recent first) using RecordStore
     - Display extracted fields with color-coded confidence scores
     - Show original scanned page images alongside extracted data
@@ -171,7 +171,7 @@ Incremental implementation of the BMR digitization pipeline in Python. Each task
     - On approval, trigger FeedbackLoop to add record to training dataset
     - _Requirements: 5.1, 5.2, 5.3, 5.4, 5.5, 5.6, 5.7_
 
-- [~] 14. Implement synthetic data generator
+- [-] 14. Implement synthetic data generator
   - Create `data/generate_synthetic.py` to produce sample BMR images for testing
   - Generate a small set of synthetic scanned pages in `data/sample_bmr/`
   - _Requirements: All (test data support)_
