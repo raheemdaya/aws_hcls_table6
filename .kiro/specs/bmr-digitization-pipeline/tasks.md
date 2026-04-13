@@ -52,40 +52,40 @@ Incremental implementation of the BMR digitization pipeline in Python. Each task
     - Test each supported format individually
     - _Requirements: 1.4_
 
-- [ ] 4. Implement PageAssembler
+- [x] 4. Implement PageAssembler
   - [x] 4.1 Create `src/bmr_pipeline/assembler.py`
     - Implement `PageAssembler.assemble(pages, record_id)` that stitches validated pages into a single Record
     - Preserve page order and original image references
     - Raise `AssemblyError` on empty page list
     - _Requirements: 2.1, 2.2, 2.3, 2.4_
 
-  - [-]* 4.2 Write property test: Assembly preserves page order and content
+  - [x]* 4.2 Write property test: Assembly preserves page order and content
     - **Property 3: Assembly preserves page order and content**
     - **Validates: Requirements 2.1, 2.2, 2.3**
 
-  - [~]* 4.3 Write unit tests for PageAssembler
+  - [x]* 4.3 Write unit tests for PageAssembler
     - Test single-page assembly
     - Test empty page list error
     - _Requirements: 2.2, 2.4_
 
-- [~] 5. Checkpoint - Ensure all tests pass
+- [x] 5. Checkpoint - Ensure all tests pass
   - Ensure all tests pass, ask the user if questions arise.
 
-- [ ] 6. Implement ExtractionModel protocol and mock implementation
-  - [~] 6.1 Create `src/bmr_pipeline/extraction.py`
+- [x] 6. Implement ExtractionModel protocol and mock implementation
+  - [x] 6.1 Create `src/bmr_pipeline/extraction.py`
     - Define `ExtractionModel` Protocol with `extract(record, context)` method
     - Implement `MockExtractionModel` for testing that returns synthetic fields and inferred schema
     - Ensure the interface supports reviewer notes as context for re-extraction
     - _Requirements: 3.1, 3.2, 3.3, 3.4, 3.5, 6.2_
 
-  - [~]* 6.2 Write unit tests for ExtractionModel
+  - [x]* 6.2 Write unit tests for ExtractionModel
     - Test mock implementation returns valid ExtractionResult
     - Test provider-agnostic interface with multiple mock implementations
     - Test failed extraction returns error details
     - _Requirements: 3.4, 3.5_
 
 - [ ] 7. Implement ConfidenceScorer protocol and mock implementation
-  - [~] 7.1 Create `src/bmr_pipeline/scoring.py`
+  - [-] 7.1 Create `src/bmr_pipeline/scoring.py`
     - Define `ConfidenceScorer` Protocol with `score(record, extraction_result)` method
     - Implement `MockConfidenceScorer` for testing
     - Handle scoring failure by assigning 0.0 to failed fields
