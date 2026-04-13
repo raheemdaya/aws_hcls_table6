@@ -117,28 +117,28 @@ Incremental implementation of the BMR digitization pipeline in Python. Each task
     - Test invalid JSON deserialization error messages
     - _Requirements: 7.4, 9.4_
 
-- [ ] 9. Implement ReExtractionQueue
-  - [-] 9.1 Create `src/bmr_pipeline/queue.py`
+- [x] 9. Implement ReExtractionQueue
+  - [x] 9.1 Create `src/bmr_pipeline/queue.py`
     - Implement `ReExtractionQueue` with `enqueue(record_id, reviewer_notes)`, `dequeue()`, `pending()` methods
     - Persist queue items as JSON files in `storage/queue/`
     - _Requirements: 6.1_
 
-  - [~]* 9.2 Write property test: Queue enqueue/dequeue preserves record ID and notes
+  - [x]* 9.2 Write property test: Queue enqueue/dequeue preserves record ID and notes
     - **Property 7: Queue enqueue/dequeue preserves record ID and notes**
     - **Validates: Requirements 6.1**
 
-- [~] 10. Checkpoint - Ensure all tests pass
+- [x] 10. Checkpoint - Ensure all tests pass
   - Ensure all tests pass, ask the user if questions arise.
 
 - [ ] 11. Implement FeedbackLoop
-  - [~] 11.1 Create `src/bmr_pipeline/feedback.py`
+  - [x] 11.1 Create `src/bmr_pipeline/feedback.py`
     - Implement `FeedbackLoop` with `add_validated_record(record)`, `should_retrain()`, `trigger_retrain()` methods
     - Copy validated records to `storage/training/`
     - `should_retrain()` checks if new records exceed configurable threshold
     - `trigger_retrain()` returns `RetrainEvent` and logs the event
     - _Requirements: 8.1, 8.2, 8.3, 8.4_
 
-  - [~]* 11.2 Write unit tests for FeedbackLoop
+  - [-]* 11.2 Write unit tests for FeedbackLoop
     - Test retraining trigger fires when threshold met
     - Test retraining trigger logging
     - _Requirements: 8.3, 8.4_

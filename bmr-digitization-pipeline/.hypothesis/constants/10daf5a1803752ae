@@ -1,0 +1,4 @@
+# file: /home/ubuntu/Downloads/aws_hcls_table6/bmr-digitization-pipeline/src/bmr_pipeline/queue.py
+# hypothesis_version: 6.151.13
+
+['*.json', 'record_id', 'reviewer_notes', 'utf-8']
