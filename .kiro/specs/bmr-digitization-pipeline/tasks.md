@@ -171,25 +171,25 @@ Incremental implementation of the BMR digitization pipeline in Python. Each task
     - On approval, trigger FeedbackLoop to add record to training dataset
     - _Requirements: 5.1, 5.2, 5.3, 5.4, 5.5, 5.6, 5.7_
 
-- [-] 14. Implement synthetic data generator
+- [x] 14. Implement synthetic data generator
   - Create `data/generate_synthetic.py` to produce sample BMR images for testing
   - Generate a small set of synthetic scanned pages in `data/sample_bmr/`
   - _Requirements: All (test data support)_
 
-- [ ] 15. Write integration tests
-  - [~]* 15.1 Write integration test: end-to-end pipeline flow
+- [x] 15. Write integration tests
+  - [x]* 15.1 Write integration test: end-to-end pipeline flow
     - Test ingest → assemble → extract → score → review → persist with mock LLM
     - _Requirements: 1.1–1.4, 2.1–2.4, 3.1–3.5, 4.1–4.4, 7.1–7.4_
 
-  - [~]* 15.2 Write integration test: re-extraction flow
+  - [x]* 15.2 Write integration test: re-extraction flow
     - Test flag → queue → re-extract → verify history preserved
     - _Requirements: 6.1–6.4_
 
-  - [~]* 15.3 Write integration test: feedback loop
+  - [x]* 15.3 Write integration test: feedback loop
     - Test persist → training dataset → retrain trigger
     - _Requirements: 8.1–8.4_
 
-- [~] 16. Final checkpoint - Ensure all tests pass
+- [-] 16. Final checkpoint - Ensure all tests pass
   - Ensure all tests pass, ask the user if questions arise.
 
 ## Notes
